@@ -1,0 +1,76 @@
+Date I went through gitlab tutorials: 10/14/2021
+Github Account Mystoganzi created on June 25th 2021
+
+
+
+-1.
+ang-2@DESKTOP-B05RESO MINGW64 /d/New folder (2)/Github/assignment2/docs (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 857 bytes | 857.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Mystoganzi/assignment2.git
+   f4975e5..fece39b  master -> master
+
+-2.
+
+3  Angelo Soliveras
+6  Esteban Parra
+9 total commits. I used: $ git shortlog -s
+
+-3.
+The readme file was modified last:
+Date:   Thu Oct 14 12:10:34 2021 -0400
+
+The command used was: $ git log -p README.md
+
+-4.
+
+One reason branches are used in a git repository is because it allows for independent
+development with each branch that does not affect the main respository. 
+Another reason is it allows for editing the main repo,
+branches can be removed and added without affecting the main repository.
+if changes are made on a branch that are unstable and must be deleted, it 
+can be deleted safely.
+
+-5.
+Git log command displays commited snapshots, it lets you list the project history,
+filter it and search for specific changes, git log only opeerates 
+on the committed history.
+Git status lets you inspect the working directory and the staging area.
+
+-6.
+$ git log -- Vehicle.h
+
+-7.
+$ git log --grep "file"
+
+-8.
+(I) What is inheritance? 
+Inheritance is to derive a class from another 
+class. Which then creates a hierarchy of classes that share a set of attributes and methods.
+(II) What is polymorphism? 
+Polymorphism is the ability to present the same interface for differing underlying forms, or data types.
+It also includes a pattern where classes have different functionality while sharing a common interface.
+(III) What is encapsulation?
+Encapsulation is the bundling of data with the methods that operate on 
+said data. It is also a mechanism for restricting direct access to some
+of an object's components.
+
+-9.
+In the integration manager workflow, each developer makes push to his/her
+own public repository from their private, and pull from the blessed/central repository.
+While in a dictator and lieutenants workflow, each developer pushes changes to the assigned
+lieutenant instead of their own public repository.
+
+-10.
+A team of 100 developers would benefit from following the Dictator and Lieutenants workflow instead of the
+centralized workflow because the Dictator and Lieutenants workflow allows for distributed development.
+Each developer is assigned a lieutenant repository that they push changes to. This cuts the step of having private
+and public repositories that would work better with smaller teams that are common in the centralized workflow.
+With lieutenant repositories, each developer does not need to have two repositories each which would create 
+too much clutter among 100 developers, totaling in 200 repositories(public and private) total instead of a few lieutenant repositories.
